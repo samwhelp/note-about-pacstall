@@ -1,8 +1,8 @@
 ---
 title: man pacstall
-nav_order: 9010
-has_children: true
-parent: 連結
+nav_order: 8010
+has_children: false
+parent: Manpage
 ---
 
 

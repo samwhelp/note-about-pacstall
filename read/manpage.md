@@ -6,3 +6,6 @@ has_children: true
 
 
 # Manpage
+
+
+* [man pacstall](https://samwhelp.github.io/note-about-pacstall/read/manpage/pacstall.html)
