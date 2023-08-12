@@ -17,7 +17,14 @@
 ## 主題
 
 * [相關筆記](#相關筆記)
+* [範例](#範例)
 
+
+## 範例
+
+| 範例 |
+| --- |
+| [pacstall-demo-repository](https://github.com/samwhelp/pacstall-demo-repository) |
 
 
 ## 相關筆記
