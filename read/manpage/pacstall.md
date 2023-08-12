@@ -306,44 +306,44 @@ Usage: pacstall [-h] [-V] {-I,-S,-R,-D,-A,-U,-L,-Up,-Qi,-T} [-P] [-K] [-B]
 An AUR inspired package manager for Ubuntu.
 
 Commands:
-	[1m-I[0m, [1m--install[0m <package>
+	-I, --install <package>
 		Install a package.
-	[1m-S[0m, [1m--search[0m <package>
+	-S, --search <package>
 		Search for a package.
-	[1m-R[0m, [1m--remove[0m <package>
+	-R, --remove <package>
 		Remove a package.
-	[1m-D[0m, [1m--download[0m <package>
+	-D, --download <package>
 		Download a pacscript.
-	[1m-A[0m, [1m--add-repo[0m <repo>
+	-A, --add-repo <repo>
 		Add a repository.
-	[1m-U[0m, [1m--update[0m [user] [branch]
+	-U, --update [user] [branch]
 		Update Pacstall.
-	[1m-L[0m, [1m--list[0m
+	-L, --list
 		List all installed packages.
-	[1m-Up[0m, [1m--upgrade[0m
+	-Up, --upgrade
 		Upgrade all installed packages.
-	[1m-Qi[0m, [1m--query-info[0m <package>
+	-Qi, --query-info <package>
 		Query information about a package.
-	[1m-T[0m, [1m--tree[0m <package>
+	-T, --tree <package>
 		Display a tree graph of a package.
 
 Options:
-	[1m-P[0m, [1m--disable-prompts[0m
+	-P, --disable-prompts
 		Disable prompts.
-	[1m-K[0m, [1m--keep[0m
+	-K, --keep
 		Keep the build files.
-	[1m-B[0m, [1m--build-only[0m
+	-B, --build-only
 		Build the deb but do not install.
-	[1m-V[0m, [1m--version[0m
+	-V, --version
 		Display the version number.
-	[1m-h[0m, [1m--help[0m
+	-h, --help
 		Display this help message.
 
 Helpful links:
-	[1mhttps://github.com/pacstall/pacstall[0m
+	https://github.com/pacstall/pacstall
 		Official Pacstall GitHub page.
-	[1mhttps://github.com/pacstall/pacstall-programs/issues[0m
+	https://github.com/pacstall/pacstall-programs/issues
 		If you find a broken package, create an issue here.
-	[1mhttps://github.com/pacstall/pacstall/releases/latest[0m
+	https://github.com/pacstall/pacstall/releases/latest
 		Link to the latest release of Pacstall.
 ```
