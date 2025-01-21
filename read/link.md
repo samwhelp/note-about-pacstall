@@ -13,6 +13,10 @@ has_children: true
 * [Pacstall](https://pacstall.dev/)
 * [Wiki](https://github.com/pacstall/pacstall/wiki)
 * GitHub / [Pacstall](https://github.com/pacstall)
+* GitHub / Pacstall / [pacstall](https://github.com/pacstall/pacstall)
+* GitHub / Pacstall / [pacstall-programs](https://github.com/pacstall/pacstall-programs)
+
+
 
 
 ## Just the Docs
