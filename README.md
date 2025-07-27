@@ -22,18 +22,72 @@
 
 ## 主題
 
+* [主程式打包](#主程式打包)
+* [pacscript 打包實作範例](#pacscript-打包實作範例)
+* [Known Issue](#known-issue)
 * [相關筆記](#相關筆記)
-* [範例](#範例)
 
 
 
 
-## 範例
+## 主程式打包
 
-| 範例 |
-| --- |
+| 主程式打包 |
+| --------- |
+| [pacstall-packaging](https://github.com/samwhelp/pacstall-packaging) |
+
+
+
+
+## pacscript 打包實作範例
+
+| pacscript 打包實作範例 |
+| ------- |
 | [pacstall-demo-repository](https://github.com/samwhelp/pacstall-demo-repository) |
 | [deb-coffee](https://github.com/samwhelp/deb-coffee) |
+| [deb-coffee-maccity](https://github.com/samwhelp/deb-coffee-maccity) |
+| [deb-coffee-wincity](https://github.com/samwhelp/deb-coffee-wincity) |
+
+
+
+
+## Known Issue
+
+> 在使用「`pacstall`」時，發現會有卡住的情形
+
+執行
+
+``` sh
+sudo pacstall -S bean
+```
+
+發現會卡住，按下「`Ctrl + c`」，接著會顯示如下的訊息
+
+```
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1333 (apt-get)
+E: Unable to lock directory /var/lib/apt/lists/
+```
+
+後來執行下面的指令，
+
+``` sh
+sudo rm /var/lib/apt/lists/lock
+```
+
+再執行「`pacstall`」就沒有卡住的情形了
+
+
+發現這個情形，所使用的版本
+
+``` sh
+pacstall --version
+```
+
+顯示
+
+```
+6.3.4 Icterine
+```
 
 
 
