@@ -6,6 +6,7 @@
 | ---- | ------ |
 | [Pacstall 探索筆記](https://samwhelp.github.io/note-about-pacstall/) | [GitHub](https://github.com/samwhelp/note-about-pacstall) |
 | [Ubuntu / ISO Builder / 探索筆記](https://samwhelp.github.io/note-about-ubuntu-iso-builder/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-iso-builder) |
+| [Debian / ISO Builder / 探索筆記](https://samwhelp.github.io/note-about-debian-iso-builder/) | [GitHub](https://github.com/samwhelp/note-about-debian-iso-builder) |
 
 
 
@@ -102,6 +103,7 @@ pacstall --version
 | Link | GitHub |
 | ---- | ------ |
 | [Rhino Linux 探索筆記](https://samwhelp.github.io/note-about-rhinolinux/) | [GitHub](https://github.com/samwhelp/note-about-rhinolinux/) |
+| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
 
 
